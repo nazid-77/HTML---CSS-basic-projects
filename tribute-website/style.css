@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(165, 168, 252);
+    min-height: 100vh;
+    border: 5px solid rgb(24, 23, 23);
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
