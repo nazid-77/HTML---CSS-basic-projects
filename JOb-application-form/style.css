@@ -4,26 +4,29 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ccc;
+    background-color:rgb(21, 21, 96);
 }
+
 .container{
     margin: 0 auto;
     max-width: 900px;
 }
+
 .apply-box{
     max-width: 600px;
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
     box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.2);
 }
 .apply-box h1{
     color:rgb(21, 21, 96);
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
 }
+
 .form-container{
     margin-top: 20px;
     display: grid;
@@ -34,10 +37,12 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 label{
     font-size: 19px;
     margin-bottom: 5px;
 }
+
 input,select,textarea{
     padding: 6px 10px;
     font-size: 15px;
@@ -47,4 +52,46 @@ input,select,textarea{
 }
 input,textarea,select:focus{
     outline-color: red;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top : 20px;
+}
+button{
+    font-size: 15px;
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+button:hover{
+    font-size: 18px;
+    background-color: #ccc;
+    color: red;
+    border: 2px solid red;.button-container{
+        display: flex;
+        justify-content: flex-end;
+        margin-top : 20px;
+    }
+    button{
+        font-size: 15px;
+        background-color: red;
+        border: transparent solid 2px;
+        padding: 5px 10px;
+        color: #fff;
+        border-radius: 5px;
+        transition: 0.3s ease-in;
+    }
+    button:hover{
+        font-size: 18px;
+        background-color: #ccc;
+        color: red;
+        border: 2px solid red;
+        transition: 0.3s ease-out;
+    }
+    transition: 0.3s ease-out;
 }
