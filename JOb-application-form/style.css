@@ -19,3 +19,32 @@ body{
     margin-top: 50px;
     box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.2);
 }
+.apply-box h1{
+    color:rgb(21, 21, 96);
+    font-size: 40px;
+    text-align: center;
+}
+.form-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax( 200px , 1fr));
+    gap: 20px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+input,select,textarea{
+    padding: 6px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.2);
+    border: 1px solid #ccc;
+}
+input,textarea,select:focus{
+    outline-color: red;
+}
