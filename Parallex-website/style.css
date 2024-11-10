@@ -1,0 +1,19 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    line-height: 1.8em;
+    font-weight: 400;
+    background-color: #ccc;
+}
+
+.pimg1{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
