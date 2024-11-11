@@ -27,6 +27,21 @@ html,body{
     padding-left: 16px;
 }
 
+.text-container h2{
+    font-size: 40px;
+}
 .lg-text{
     font-size: 72px;
+    font-weight: 400;
+}
+
+.black-box{
+    background: #313531;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.black-box h2{
+    font-size: 72px;
+    font-weight: 400;
 }
