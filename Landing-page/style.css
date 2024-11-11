@@ -45,3 +45,15 @@ html,body{
     font-size: 72px;
     font-weight: 400;
 }
+.work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 10px;
+}
+
+.card{
+    min-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
