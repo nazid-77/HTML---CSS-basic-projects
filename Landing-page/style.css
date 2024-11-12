@@ -48,11 +48,20 @@ html,body{
 .work{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 10px;
+    gap: 30px;
 }
 
+.grid-items{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .card{
-    min-width: 320px;
+    margin: 60px;
+    padding: 0 10px;
+    background: #313531;
+    text-align: center;
+    min-width: 250px;
     height: 400px;
     border-radius: 10px;
     box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
