@@ -114,3 +114,33 @@ footer{
     background-color: #000;
     color: #fff;
 }
+
+@media (max-width: 786px) {
+    .hero_section {
+      min-height: 50vh;
+    }
+    .text_container {
+      padding: 10px 0;
+      text-align: center;
+    }
+    .lg_text {
+      font-size: 32px;
+    }
+    .black_box h2 {
+      font-size: 24px;
+    }
+    .black_box h2 span {
+      font-weight: 400;
+      font-size: 32px;
+    }
+    .bottom_section {
+      flex-direction: column;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    .about h2,
+    .contact h2 {
+      font-size: 32px;
+    }
+  }
