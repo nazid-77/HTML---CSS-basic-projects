@@ -25,3 +25,17 @@ header{
     border: 1px solid #ccc;
     height: 100vh;
 }
+nav h1{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    padding: 10px;
+    color: black;
+    border-bottom: 1px solid #ccc
+}
