@@ -39,3 +39,7 @@ nav ul li{
     color: black;
     border-bottom: 1px solid #ccc
 }
+nav ul li:hover{
+    background:#ccc;
+    transition: 0.3s ease-in-out;
+}
