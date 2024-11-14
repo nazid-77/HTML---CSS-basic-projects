@@ -115,3 +115,41 @@ aside{
 .main-container{
     width: 100%;
 }
+
+.card-container{
+    min-height: 100vh;
+    background: #eceaea;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    max-width: 320px;
+}
+.card h3{
+    font-size: 20px;
+}
+
+.avatar-content{
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.channel-name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.content-status{
+    display: flex;
+    font-size: 13px;
+    gap: 10px;
+}
+
