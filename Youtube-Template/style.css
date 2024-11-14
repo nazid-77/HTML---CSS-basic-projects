@@ -47,6 +47,7 @@ nav{
     border-radius: 0 50px 50px 0;
 }
 
+/* right-top icons */
 .mic{
     padding: 15px;
     border-radius: 50%;
@@ -67,6 +68,7 @@ nav{
     margin-right: 50px;
 }
 
+/* tags section */
 .tags{
     display: flex;
     padding: 10px 20px;
@@ -95,6 +97,8 @@ aside{
     gap: 30px;
 }
 
+
+/* side container */
 .side-icons{
     display: flex;
     flex-direction: column;
@@ -111,6 +115,8 @@ aside{
 .bars{
     margin-top: 20px;
 }
+
+/* main container */
 
 .main-container{
     width: 100%;
