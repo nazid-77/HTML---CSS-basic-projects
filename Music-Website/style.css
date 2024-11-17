@@ -69,8 +69,6 @@ nav ul li:hover{
 /* hero section */
 .hero-section{
   background-image: url(images/hero_image.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 100vh;
   color: #fff;
   display: grid;
@@ -144,4 +142,27 @@ button:hover{
 .about-music h3{
   font-size: 30px;
   font-weight: 400;
+}
+
+/* video section */
+.video-section{
+  background-image: url(images/video.png);
+  min-height: 800px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+}
+.video-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: -200px;
+}
+
+.hero-section , .video-section{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
