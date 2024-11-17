@@ -86,3 +86,16 @@ nav ul li:hover{
 .hero-section h3{
   font-size: 30px;
 }
+
+.music-section{
+  padding-top: 50px;
+  background-color: var(--purple500);
+}
+.music-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
