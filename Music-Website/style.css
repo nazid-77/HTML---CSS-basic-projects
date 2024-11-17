@@ -166,3 +166,16 @@ button:hover{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* gift section */
+.gift-section{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+}
+.gift-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
