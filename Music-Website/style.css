@@ -99,3 +99,9 @@ nav ul li:hover{
   align-items: center;
   color: #fff;
 }
+
+.ipad-iphone-img{
+  margin-top: -400px;
+  position: relative;
+  top: 400px;
+}
