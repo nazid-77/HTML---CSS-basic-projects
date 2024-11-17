@@ -95,13 +95,35 @@ nav ul li:hover{
   display: flex;
   flex-direction: column;
   gap: 30px;
+  line-height: 2;
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+
+button{
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.2s ease-in-out;
+}
+button:hover{
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
 }
 
 .ipad-iphone-img{
   margin-top: -400px;
   position: relative;
   top: 400px;
+}
+
+.primary-btn{
+  background-color: var(--red600);
+  color: #fff;
+}
+.secondary-btn{
+  background-color: var(--purple300);
+  color: #fff;
 }
