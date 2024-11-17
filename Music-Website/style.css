@@ -21,6 +21,9 @@ body {
   line-height: 1.4;
   scroll-behavior: smooth;
 }
+section{
+  scroll-margin: 50px;
+}
 
 /* header section */
 .container{
@@ -178,4 +181,31 @@ button:hover{
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+.gift-section{
+  scroll-margin: 120px;
+}
+
+/* footer section */
+.footer-upper{
+  background-color: var(--purple600);
+  padding: 20px;
+}
+.footer-upper .container{
+  display: flex;
+  justify-content: space-between ;
+  color: #fff;
+}
+.footer-upper h4{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer-lower{
+  background-color: var(--purple300);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
 }
