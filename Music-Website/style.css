@@ -13,7 +13,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background: rebeccapurple;
 }
 html,
 body {
@@ -21,4 +20,43 @@ body {
   font-weight: 300;
   line-height: 1.4;
   scroll-behavior: smooth;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header{
+  background-color: var(--purple300);
+}
+.logo{
+  font-size: 32px;
+  font-weight: 600;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  color:#fff;
+}
+nav ul{
+  display: flex;
+  gap: 50px;
+}
+nav ul li{
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in;
+}
+nav ul li:hover{
+  border-bottom: 2px solid #fff;
+  transition: 0.2s ease-in;
 }
