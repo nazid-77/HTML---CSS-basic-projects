@@ -11,6 +11,16 @@ body {
   font-weight: 300;
   font-family: "Roboto", sans-serif;
 }
+button{
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.08);
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
 
 /* navigation */
 nav{
@@ -32,4 +42,33 @@ nav{
 }
 .bar-icon{
     font-size: 32px;
+}
+
+/* hero section */
+.hero{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tag{
+    background-color: #149f39;
+    padding: 5px 10px;
+    color: #fff;
+    align-self: flex-start;
+}
+.hero-content h1{
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.explore-btn{
+    background-color: #ffc066;
+    align-self: flex-start;
+    font-size: 25px;
 }
