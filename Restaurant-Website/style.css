@@ -196,7 +196,7 @@ footer{
 }
 .icon-container{
   display: flex;
-  font-size: 32px;
+  font-size: 25px;
   gap: 15px;
 }
 
@@ -235,5 +235,14 @@ footer{
     }
     .grid-img{
       border-radius: 0px;
+    }
+
+    /* footer section */
+    .footer-container{
+      flex-direction: column;
+    }
+    .link-list , 
+    .news-letter{
+      margin-top: 20px;
     }
 }
