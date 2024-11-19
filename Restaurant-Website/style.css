@@ -73,6 +73,29 @@ nav{
     font-size: 25px;
 }
 
+/* Feature section */
+.features{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+.feature{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  transition: 0.2s ease-in-out;
+}
+.feature:hover{
+  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.08);
+  transition: 0.2s ease-in-out;
+}
+.divider{
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
 @media (max-width:786px) {
     .hero {
         flex-direction: column;
