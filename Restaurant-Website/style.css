@@ -72,3 +72,25 @@ nav{
     align-self: flex-start;
     font-size: 25px;
 }
+
+@media (max-width:786px) {
+    .hero {
+        flex-direction: column;
+      }
+    
+      .hero_image {
+        display: flex;
+        justify-content: center;
+      }
+      .hero_image img {
+        width: 80%;
+      }
+      .hero_content {
+        gap: 10px;
+    
+        padding: 10px;
+      }
+      .hero_content h1 {
+        font-size: 32px;
+      }
+}
