@@ -30,6 +30,7 @@ nav{
     margin-bottom: 30px;
     padding: 10px;
     background: #fff;
+    z-index: 50;
 }
 .navigation{
     display: flex;
@@ -94,6 +95,65 @@ nav{
 .divider{
   border: 1px solid #ccc;
   margin: 20px 0;
+}
+
+/* menu section */
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  margin: 50px 0;
+}
+.menu .tag{
+  align-self: center;
+  border: none;
+  box-shadow: 5px 5px 5px 5px rgba(1, 1, 1, 0.08);
+  font-size: 20px;  
+}
+.menu h2{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/* grid section */
+.grid-img{
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+.grid-img:hover{
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+
+.grid{
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+   "I1 I1 I2 I3"
+   "I1 I1 I2 I7"
+   "I4 I5 I6 I7";
+}
+.item1{
+  grid-area: I1;
+}
+.item2{
+  grid-area: I2;
+}
+.item3{
+  grid-area: I3;
+}
+.item4{
+  grid-area: I4;
+}
+.item5{
+  grid-area: I5;
+}
+.item6{
+  grid-area: I6;
+}
+.item7{
+  grid-area: I7;
 }
 
 @media (max-width:786px) {
