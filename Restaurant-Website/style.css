@@ -31,6 +31,7 @@ nav{
     padding: 10px;
     background: #fff;
     z-index: 50;
+    background-color: #fff0db;
 }
 .navigation{
     display: flex;
@@ -159,6 +160,44 @@ nav{
 }
 .item7{
   grid-area: I7;
+}
+
+/* footer section*/
+footer{
+  background-color: #fff0db;
+}
+.footer-container{
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+.footer-container h3{
+  color: rgb(83, 80, 80);
+  margin-bottom: 10px;
+}
+.link-list h3{
+  color: rgb(83, 80, 80);
+  margin-bottom: 10px;
+}
+.link-list ul{
+  list-style: none;
+}
+.link-list ul li{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.news-letter h3{
+  color: rgb(83, 80, 80);
+  margin-bottom: 10px;
+}
+.news-letter input{
+  padding: 5px 40px;
+  margin-bottom: 10px;
+}
+.icon-container{
+  display: flex;
+  font-size: 32px;
+  gap: 15px;
 }
 
 /* media styling */
