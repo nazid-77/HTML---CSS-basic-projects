@@ -79,3 +79,41 @@ main{
     border-radius: 5rem;
     box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.3);
 }
+
+/* long h-card */
+.h-card{
+    display: flex;
+    align-items: center;
+    margin: 5rem 1rem;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    line-height: 1.5;
+}
+.card-content h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.card-content p{
+    font-size: 1.7rem;
+}
+.status{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.read-btn{
+    all: unset;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+}
+.read-btn:hover{
+    border-bottom: 1px solid #ccc;
+}
