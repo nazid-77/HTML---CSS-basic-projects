@@ -178,3 +178,9 @@ footer ul li{
     align-content: center;
     gap: 1rem;
 }
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
