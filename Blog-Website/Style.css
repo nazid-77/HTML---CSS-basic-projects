@@ -161,3 +161,20 @@ footer ul{
 footer ul li{
     font-size: 2rem;
 }
+
+/* post page */
+.banner-img img{
+    width: 100%;
+}
+.post h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+.post hr{
+    margin: 3rem;
+}
+.about-author{
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+}
