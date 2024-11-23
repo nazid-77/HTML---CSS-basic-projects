@@ -188,16 +188,16 @@ to {
 
 /* contact section */
 #contact{
-    border-top: 2px solid var(--lighting-color);
+    border-top: 4px solid var(--lighting-color);
     background: var(--dark-color);
 }
 #contact h2{
-    font-size: 8rem;
+    font-size: 10rem;
     text-align: center;
     padding: 3rem 0;
 }
 #contact .container{
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -227,4 +227,13 @@ to {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+}
+
+/* footer section */
+footer{
+    background: var(--darker-color);
+    font-size: 1.6rem;
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
 }
