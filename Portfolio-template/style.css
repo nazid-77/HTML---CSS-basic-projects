@@ -185,3 +185,46 @@ to {
 .card-content h3{
     text-align: center;
 }
+
+/* contact section */
+#contact{
+    border-top: 2px solid var(--lighting-color);
+    background: var(--dark-color);
+}
+#contact h2{
+    font-size: 8rem;
+    text-align: center;
+    padding: 3rem 0;
+}
+#contact .container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+}
+.top-contact{
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+}
+.contact-way{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.contact-way i{
+    font-size: 4rem;
+}
+.contact-way h3{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.bottom-contact{
+    max-width: 400px;
+    gap: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+}
