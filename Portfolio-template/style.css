@@ -132,3 +132,22 @@ to {
     border-color: orange;
 }
 }
+
+/* project section */
+#project{
+    background:var(--darker-color);
+}
+#project h2{
+    font-size: 6rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+.grid-items{
+    display: grid;
+    place-items: center;
+}
