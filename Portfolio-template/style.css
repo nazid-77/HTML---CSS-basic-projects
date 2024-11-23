@@ -30,10 +30,15 @@ body {
 .container{
     max-width: 1300px;
     margin: 0 auto;
-    position: sticky;
 }
 header{
     background-color: var(--lighting-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+section {
+    scroll-margin-top: 50px;
 }
 
 a{
@@ -236,4 +241,43 @@ footer{
     padding: 2rem;
     color: #fff;
     text-align: center;
+}
+
+/* Media query */
+@media (max-width:786px) {
+    html{
+        font-size: 40%;
+    }
+    #hero .container{
+        flex-direction: column;
+    }
+    .hero-image{
+        display: grid;
+        place-items: center;
+    }
+    #contact .container{
+        height: 70vh;
+    }
+    #contact h2{
+        font-size: 9rem;
+    }
+}
+
+@media (max-width:500px) {
+    html{
+        font-size: 32%;
+    }
+    #hero .container{
+        flex-direction: column;
+    }
+    .hero-image{
+        display: grid;
+        place-items: center;
+    }
+    #contact .container{
+        height: 50vh;
+    }
+    #contact h2{
+        font-size: 8rem;
+    }
 }
