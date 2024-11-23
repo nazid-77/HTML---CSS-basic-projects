@@ -140,7 +140,7 @@ to {
 #project h2{
     font-size: 6rem;
     text-align: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 .project-container{
     display: grid;
@@ -150,4 +150,38 @@ to {
 .grid-items{
     display: grid;
     place-items: center;
+}
+/* card */
+.card{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+}
+.card:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.05);
+}
+.card img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+.card:hover .card-content{
+    background: #fff;
+    color: var(--dark-color);
+    transform: translateY(0px);
+}
+.card-content{
+    padding: 3rem;
+    position: relative;
+    top: -6.5rem;
+    margin-bottom: -6.5rem;
+    transition: 0.5s ease-in-out;
+    transform: translateY(100px);
+}
+.card-content h3{
+    text-align: center;
 }
